@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kishore K I — Robotics & Automation Engineer</title>
+<meta name="description" content="Portfolio of Kishore K I — Robotics & Automation Engineer. ROS2, embedded systems, industrial automation, and autonomous robot projects.">
+
+<!-- Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=DM+Sans:wght@400;500;700&family=Manrope:wght@400;500;700;800&family=Playfair+Display:ital@0;1&family=Lora:ital@0;1&family=Space+Grotesk:wght@500;600;700&family=Montserrat:wght@500;600;700&display=swap" rel="stylesheet">
+<link href="https://api.fontshare.com/v2/css?f[]=satoshi@400,500,700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- ============================= NAV ============================= -->
+<header id="site-header">
+  <div class="nav-inner">
+    <a href="#hero" class="logo">
+      <span class="logo-mark"><span>K</span></span>
+      <span data-bind="name">Kishore K I</span>
+    </a>
+    <nav>
+      <ul id="nav-menu">
+        <li><a href="#about">About</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#internships">Internships</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#certificates">Certificates</a></li>
+        <li><a href="#achievements">Achievements</a></li>
+        <li><a href="#resume">Resume</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <button class="nav-toggle" id="nav-toggle" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<!-- ============================= HERO ============================= -->
+<section class="hero" id="hero">
+  <div class="container hero-grid">
+    <div>
+      <div class="hero-eyebrow">Sheet 00 — Cover / Identity</div>
+      <h1>Hi, I'm <span data-bind="name">Kishore K I</span><br><span class="accent" id="hero-role">Robotics & Automation Engineer</span></h1>
+      <blockquote class="hero-quote" id="hero-quote"></blockquote>
+      <div class="btn-row">
+        <a href="#projects" class="btn btn-solid">View Projects</a>
+        <a href="#contact" class="btn btn-ghost-light">Get in Touch</a>
+      </div>
+      <div class="hero-socials">
+        <a class="social-btn" id="hero-linkedin" href="#" target="_blank" rel="noopener" aria-label="LinkedIn"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M7 10v7M7 7v.01M12 17v-4.5a2 2 0 0 1 4 0V17M12 12.5V17"/></svg></a>
+        <a class="social-btn" id="hero-github" href="#" target="_blank" rel="noopener" aria-label="GitHub"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M9 19c-4.3 1.4-4.3-2.5-6-3m12 5v-3.5c0-1 .1-1.4-.5-2 2.8-.3 5.5-1.4 5.5-6a4.6 4.6 0 0 0-1.3-3.2 4.2 4.2 0 0 0-.1-3.2s-1.1-.3-3.5 1.3a12.3 12.3 0 0 0-6.4 0C6.5 2.8 5.4 3.1 5.4 3.1a4.2 4.2 0 0 0-.1 3.2A4.6 4.6 0 0 0 4 9.5c0 4.6 2.7 5.7 5.5 6-.6.6-.6 1.2-.5 2V21"/></svg></a>
+      </div>
+    </div>
+
+    <div class="hero-art">
+      <!-- Blueprint-style schematic of an autonomous delivery robot, drawn in on load -->
+      <svg viewBox="0 0 420 420" xmlns="http://www.w3.org/2000/svg">
+        <!-- chassis -->
+        <rect class="draw fill-panel" x="90" y="190" width="240" height="110" rx="10"/>
+        <rect class="draw" x="90" y="190" width="240" height="110" rx="10"/>
+        <!-- upper payload box -->
+        <rect class="draw fill-panel" x="130" y="110" width="160" height="80" rx="6"/>
+        <rect class="draw" x="130" y="110" width="160" height="80" rx="6"/>
+        <!-- lidar puck -->
+        <circle class="draw" cx="210" cy="95" r="18"/>
+        <circle class="draw" cx="210" cy="95" r="4"/>
+        <path class="draw" d="M210 77 v-18"/>
+        <!-- wheels -->
+        <circle class="draw" cx="140" cy="305" r="24"/>
+        <circle class="draw" cx="280" cy="305" r="24"/>
+        <circle class="draw" cx="140" cy="305" r="7"/>
+        <circle class="draw" cx="280" cy="305" r="7"/>
+        <!-- IMU / control board -->
+        <rect class="draw" x="180" y="215" width="60" height="36" rx="3"/>
+        <path class="draw" d="M190 224h40M190 233h40M190 242h24"/>
+        <!-- sensor lines -->
+        <path class="draw" d="M90 220 h-24 M330 220 h24"/>
+        <!-- dimension lines + labels -->
+        <line class="dim-line" x1="60" y1="190" x2="60" y2="300"/>
+        <line class="dim-line" x1="52" y1="190" x2="68" y2="190"/>
+        <line class="dim-line" x1="52" y1="300" x2="68" y2="300"/>
+        <text class="dim-label" x="20" y="248" transform="rotate(-90 20 248)">CHASSIS H.</text>
+        <text class="dim-label" x="176" y="70">YDLIDAR X2</text>
+        <text class="dim-label" x="246" y="236">MPU-6050 IMU</text>
+        <text class="dim-label" x="345" y="224">ESP32</text>
+        <text class="dim-label" x="6" y="224">ENCODER</text>
+      </svg>
+    </div>
+  </div>
+  <div class="scroll-cue"><span class="line"></span>Scroll</div>
+</section>
+
+<!-- ============================= ABOUT ============================= -->
+<section id="about">
+  <div class="container">
+    <div class="sheet-tag">Sheet 01 — About</div>
+    <div class="about-grid">
+      <div class="reveal">
+        <div class="about-figure">
+          <img src="assets/achievements/kishore_profile.jpeg" alt="Kishore K I" onerror="this.style.display='none'">
+        </div>
+      </div>
+      <div class="about-text reveal" id="about-paragraphs"></div>
+    </div>
+  </div>
+</section>
+
+<div class="container"><div class="divider"></div></div>
+
+<!-- ============================= EDUCATION ============================= -->
+<section id="education">
+  <div class="container">
+    <div class="sheet-tag">Sheet 02 — Education</div>
+    <div class="section-head">
+      <h2 class="section-title">Education</h2>
+    </div>
+    <div class="edu-list" id="education-list"></div>
+  </div>
+</section>
+
+<!-- ============================= SKILLS ============================= -->
+<section id="skills" style="background:var(--paper-2);">
+  <div class="container">
+    <div class="sheet-tag">Sheet 03 — Skill Set</div>
+    <div class="section-head">
+      <h2 class="section-title">Skills</h2>
+      <p>A technical toolkit spanning robotics, automation, programming, simulation, embedded systems, and engineering design — developed through hands-on projects, internships, and practical engineering experience.</p>
+    </div>
+    <div class="skills-grid" id="skills-grid"></div>
+  </div>
+</section>
+
+<!-- ============================= INTERNSHIPS ============================= -->
+<section id="internships">
+  <div class="container">
+    <div class="sheet-tag">Sheet 04 — Internship Experience</div>
+    <div class="section-head">
+      <h2 class="section-title">Internships</h2>
+      <p>A collection of hands-on internship experiences where I applied engineering concepts to real-world projects, gaining practical exposure to robotics, automation, embedded systems, simulation, and technical problem-solving within professional working environments.</p>
+    </div>
+    <div id="internships-list"></div>
+  </div>
+</section>
+
+<!-- ============================= PROJECTS ============================= -->
+<section id="projects" style="background:var(--paper-2);">
+  <div class="container">
+    <div class="sheet-tag">Sheet 05 — Major Projects</div>
+    <div class="section-head">
+      <h2 class="section-title">Projects</h2>
+      <p>A selection of robotics and automation projects developed through hands-on design, simulation, programming, and hardware integration. These projects reflect my experience in building practical robotic systems, solving engineering challenges, and applying concepts across mechanical design, electronics, control, and software.</p>
+    </div>
+    <div id="projects-list"></div>
+  </div>
+</section>
+
+<!-- ============================= CERTIFICATES ============================= -->
+<section id="certificates">
+  <div class="container">
+    <div class="sheet-tag">Sheet 06 — Certifications</div>
+    <div class="section-head">
+      <h2 class="section-title">Certificates</h2>
+      <p>A curated collection of certifications, workshops, and learning experiences reflecting my development across robotics, automation, programming, industrial technology, manufacturing, and professional skills.</p>
+    </div>
+    <div class="cert-grid" id="cert-grid"></div>
+  </div>
+</section>
+
+<!-- ============================= ACHIEVEMENTS ============================= -->
+<section id="achievements" class="section-dark">
+  <div class="container">
+    <div class="sheet-tag">Sheet 07 — Achievements</div>
+    <div class="section-head">
+      <h2 class="section-title">Achievements</h2>
+      <p>Recognition earned along the way — academic, technical, and organisational.</p>
+    </div>
+    <div class="ach-list" id="achievements-list"></div>
+  </div>
+</section>
+
+<!-- ============================= RESUME ============================= -->
+<section id="resume">
+  <div class="container">
+    <div class="sheet-tag">Sheet 08 — Resume</div>
+    <div class="section-head">
+      <h2 class="section-title">Resume</h2>
+    </div>
+    <div class="resume-panel">
+      <div class="resume-preview reveal">
+        <embed id="resume-embed" src="assets/resume.pdf" type="application/pdf">
+      </div>
+      <div class="resume-copy reveal">
+        <p>Everything above, condensed to one page — professional summary, technical skills, internships, projects, education, and certifications.</p>
+        <div class="btn-row">
+          <a id="resume-download" class="btn btn-solid" href="assets/resume.pdf" download><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" width="16" height="16"><path d="M12 4v12m0 0l-4-4m4 4l4-4M4 18v2h16v-2"/></svg> Download Resume</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================= CONTACT ============================= -->
+<section id="contact" style="background:var(--paper-2);">
+  <div class="container">
+    <div class="sheet-tag">Sheet 09 — Contact</div>
+    <div class="section-head">
+      <h2 class="section-title">Get In Touch</h2>
+      <p>Have a project, internship, or collaboration in mind? Send a message below or reach out directly.</p>
+    </div>
+    <div class="contact-grid">
+      <div class="reveal">
+        <div class="contact-info-item"><span class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></svg></span><a id="contact-email" href="#"></a></div>
+        <div class="contact-info-item"><span class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4 4h4l2 6-3 2a13 13 0 0 0 6 6l2-3 6 2v4a2 2 0 0 1-2 2C10.5 22 2 13.5 2 6a2 2 0 0 1 2-2z"/></svg></span><a id="contact-phone" href="#"></a></div>
+        <div class="contact-info-item"><span class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M7 10v7M7 7v.01M12 17v-4.5a2 2 0 0 1 4 0V17M12 12.5V17"/></svg></span><a id="contact-linkedin" href="#" target="_blank" rel="noopener"></a></div>
+        <div class="contact-info-item"><span class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M9 19c-4.3 1.4-4.3-2.5-6-3m12 5v-3.5c0-1 .1-1.4-.5-2 2.8-.3 5.5-1.4 5.5-6a4.6 4.6 0 0 0-1.3-3.2 4.2 4.2 0 0 0-.1-3.2s-1.1-.3-3.5 1.3a12.3 12.3 0 0 0-6.4 0C6.5 2.8 5.4 3.1 5.4 3.1a4.2 4.2 0 0 0-.1 3.2A4.6 4.6 0 0 0 4 9.5c0 4.6 2.7 5.7 5.5 6-.6.6-.6 1.2-.5 2V21"/></svg></span><a id="contact-github" href="#" target="_blank" rel="noopener"></a></div>
+      </div>
+      <form id="contact-form" class="reveal">
+        <div class="form-group">
+          <label for="f-name">Name</label>
+          <input type="text" id="f-name" required>
+        </div>
+        <div class="form-group">
+          <label for="f-email">Your Email</label>
+          <input type="email" id="f-email" required>
+        </div>
+        <div class="form-group">
+          <label for="f-message">Message</label>
+          <textarea id="f-message" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-solid"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" width="16" height="16"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></svg> Send Message</button>
+        <div class="form-status" id="form-status"></div>
+      </form>
+    </div>
+  </div>
+</section>
+
+<!-- ============================= FOOTER ============================= -->
+<footer>
+  <div class="container footer-inner">
+    <span>© <span id="year"></span> <span id="footer-year-name"></span>. Built and deployed on GitHub Pages.</span>
+    <a href="#hero">Back to top ↑</a>
+  </div>
+</footer>
+
+<script src="js/data.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
