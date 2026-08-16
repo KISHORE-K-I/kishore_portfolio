@@ -995,3 +995,354 @@ a:focus-visible, button:focus-visible, input:focus-visible, textarea:focus-visib
     aspect-ratio:16/10;
   }
 }
+/* =========================================================
+   MOBILE RESPONSIVE LAYOUT
+   ========================================================= */
+
+@media (max-width: 768px) {
+
+  /* ---------- PAGE WIDTH ---------- */
+
+  html,
+  body {
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+
+  .container {
+    width: 100%;
+    max-width: 100%;
+    padding-left: 28px;
+    padding-right: 28px;
+    box-sizing: border-box;
+  }
+
+
+  /* ---------- HEADER / NAVIGATION ---------- */
+
+  header {
+    width: 100%;
+  }
+
+
+  /* ---------- SECTION HEADINGS ---------- */
+
+  .section-head {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .section-head p {
+    max-width: 100%;
+    line-height: 1.7;
+  }
+
+
+  /* =======================================================
+     ABOUT
+     ======================================================= */
+
+  .about-grid {
+    grid-template-columns: 1fr;
+    gap: 45px;
+  }
+
+  .about-figure {
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  .about-figure img {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 4 / 5;
+    object-fit: cover;
+  }
+
+  .about-text {
+    width: 100%;
+  }
+
+  .about-text p {
+    font-size: 16px;
+    line-height: 1.7;
+    text-align: left;
+  }
+
+  .about-text p:first-child {
+    font-size: 18px;
+    line-height: 1.65;
+  }
+
+
+  /* =======================================================
+     EDUCATION
+     ======================================================= */
+
+  .education-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .education-card,
+  .edu-card {
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+
+  /* =======================================================
+     SKILLS
+     ======================================================= */
+
+  .skills-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .skill-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .skill-card {
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+
+  /* =======================================================
+     INTERNSHIPS / PROJECTS / GENERAL CARDS
+     ======================================================= */
+
+  .card-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .card {
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  .card-media {
+    width: 100%;
+    min-height: 220px;
+    border-right: none;
+    border-bottom: 1px solid var(--line);
+    box-sizing: border-box;
+  }
+
+  .card-media img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .card-body {
+    width: 100%;
+    padding: 24px 22px;
+    box-sizing: border-box;
+  }
+
+  .card-top {
+    width: 100%;
+  }
+
+  .card-title {
+    font-size: 19px;
+    line-height: 1.35;
+  }
+
+  .card-summary {
+    font-size: 14px;
+    line-height: 1.7;
+    text-align: left;
+  }
+
+  .card-detail li {
+    text-align: left;
+    line-height: 1.65;
+  }
+
+
+  /* =======================================================
+     CERTIFICATES
+     ======================================================= */
+
+  .cert-grid {
+    grid-template-columns: 1fr;
+    gap: 24px;
+  }
+
+  .cert-card {
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  .cert-thumb {
+    width: 100%;
+    aspect-ratio: 4 / 3;
+  }
+
+  .cert-thumb img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .cert-body {
+    padding: 18px 20px 22px;
+  }
+
+  .cert-desc {
+    line-height: 1.65;
+  }
+
+
+  /* =======================================================
+     ACHIEVEMENTS
+     ======================================================= */
+
+  .ach-list {
+    width: 100%;
+  }
+
+  .ach-item {
+    grid-template-columns: 38px 1fr;
+    gap: 16px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  .ach-icon {
+    width: 38px;
+    height: 38px;
+  }
+
+  .ach-title {
+    font-size: 16px;
+    line-height: 1.4;
+  }
+
+  .ach-org {
+    line-height: 1.5;
+  }
+
+  .ach-desc {
+    max-width: 100%;
+    font-size: 14px;
+    line-height: 1.65;
+    text-align: left;
+  }
+
+  .ach-date {
+    grid-column: 2;
+    text-align: left;
+    padding-top: 0;
+    margin-top: 4px;
+  }
+
+
+  /* =======================================================
+     RESUME
+     ======================================================= */
+
+  .resume-panel {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+
+  .resume-preview {
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  .resume-preview embed,
+  .resume-preview iframe {
+    width: 100%;
+    height: 500px;
+  }
+
+
+  /* =======================================================
+     CONTACT
+     ======================================================= */
+
+  .contact-grid {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+
+  .contact-info-item {
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+
+  /* =======================================================
+     IMAGES / MEDIA SAFETY
+     ======================================================= */
+
+  img {
+    max-width: 100%;
+  }
+
+  .card,
+  .cert-card,
+  .resume-preview,
+  .skill-card,
+  .education-card,
+  .edu-card {
+    max-width: 100%;
+  }
+
+
+  /* =======================================================
+     TEXT SAFETY
+     ======================================================= */
+
+  .about-text p,
+  .card-summary,
+  .card-detail li,
+  .cert-desc,
+  .ach-desc {
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+  }
+}
+
+
+/* =========================================================
+   SMALL PHONES
+   ========================================================= */
+
+@media (max-width: 480px) {
+
+  .container {
+    padding-left: 28px;
+    padding-right: 28px;
+  }
+
+  .section-title {
+    font-size: 36px;
+  }
+
+  .about-text p:first-child {
+    font-size: 17px;
+  }
+
+  .card-body {
+    padding: 22px 20px;
+  }
+
+  .card-media {
+    min-height: 200px;
+  }
+
+  .ach-item {
+    gap: 14px;
+  }
+
+  .ach-icon {
+    width: 36px;
+    height: 36px;
+  }
+}
