@@ -1,15 +1,5 @@
 /* ==========================================================================
-   PORTFOLIO DATA — this is the ONLY file you need to edit day to day.
-   ---------------------------------------------------------------------
-   - Every section on the site pulls its content from this file.
-   - For any "link" field: paste a Google Drive link, YouTube link,
-     LinkedIn post link, or any URL. Leave as "#" if you don't have one yet
-     (the button will still show but won't go anywhere useful).
-   - For any "image" field: paste a direct image URL (Google Drive: set
-     sharing to "Anyone with the link", then use a direct-view link format,
-     or use imgur / any image host). Leave as "" to show a placeholder.
-   - Do not delete the commas between entries. Copy an existing block
-     to add a new item of the same type.
+                             PORTFOLIO DATA
    ========================================================================== */
 
 const portfolioData = {
@@ -131,7 +121,7 @@ const portfolioData = {
       logo: "assets/logos/Nxtgen.png",
       role: "Embedded Systems & Robotics Intern",
       date: "1 June 2026 – 30 June 2026",
-      location: "India",
+      location: "Erode, Tamil Nadu, India",
       summary: "Engineered an ESP32-based IoT smart agriculture robot with real-time environmental monitoring and precision irrigation.",
       details: [
         "Developed an ESP32-based IoT Smart Agriculture Robot by integrating environmental sensors for real-time monitoring and precision irrigation.",
