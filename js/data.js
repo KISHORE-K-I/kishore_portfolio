@@ -165,6 +165,24 @@ const portfolioData = {
       certificateLink: "https://drive.google.com/file/d/1IENKCphSlGTaXtuZyYCjyyHbu3jovWN0/view?usp=sharing"
     },
     {
+      title: "PLC-Based Automated Box Sorting System",
+      subtitle: "Automated Box Sorting System",
+      date: "April 2025",
+      image: "assets/projects/plc_box_sorting.jpg",
+      summary: "A PLC-based automated conveyor sorting system that detects and separates short and tall boxes using sensors, dual conveyors, and a side-mounted pusher, with a custom HMI for real-time monitoring and control.",
+      details: [
+        "Boxes enter Conveyor 1, where an entry sensor detects their presence.",
+        "Height sensors identify whether the box is short or tall, with interlocking logic used to avoid detection mismatch.",
+        "When a tall box is detected, memory, timer, and interlock logic track its movement and trigger the side-mounted pusher after the required delay.",
+        "The pusher diverts the tall box to Conveyor 2, while short boxes continue through Conveyor 1.",
+        "Counters track the total number of boxes and individual short/tall boxes.",
+        "Implemented MCR, emergency-stop, timers, counters, Set/Reset, and memory logic for reliable and safe operation.",
+        "HMI displays conveyor status, sensor conditions, box counts, and system status for operator monitoring and control."
+      ],
+      learnt: "Gained practical experience in PLC Ladder Logic, industrial interlocking, HMI development, sensor-based sequence control, timers and counters, safety logic, and automated material handling systems.",
+      videoLink: "PASTE_YOUR_YOUTUBE_LINK_HERE"
+    },
+    {
       title: "Multi-Purpose Agriculture Robot",
       subtitle: "AgriBot",
       date: "Sept 2024 – May 2025",
