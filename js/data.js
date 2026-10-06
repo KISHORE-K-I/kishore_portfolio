@@ -180,7 +180,7 @@ const portfolioData = {
         "HMI displays conveyor status, sensor conditions, box counts, and system status for operator monitoring and control."
       ],
       learnt: "Gained practical experience in PLC Ladder Logic, industrial interlocking, HMI development, sensor-based sequence control, timers and counters, safety logic, and automated material handling systems.",
-      videoLink: "PASTE_YOUR_YOUTUBE_LINK_HERE"
+      videoLink: "https://drive.google.com/file/d/1qr86vDxSlm30ypOHU3eT7dB1v1pp54ZL/view?usp=sharing"
     },
     {
       title: "Multi-Purpose Agriculture Robot",
