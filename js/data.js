@@ -158,7 +158,7 @@ const portfolioData = {
       title: "PLC-Based Automated Box Sorting System",
       subtitle: "Automated Box Sorting System",
       date: "April 2025",
-      image: "assets/projects/plc_box_sorting.jpg",
+      image: "assets/projects/PLC Based box sorting system.png",
       summary: "A PLC-based automated conveyor sorting system that detects and separates short and tall boxes using sensors, dual conveyors, and a side-mounted pusher, with a custom HMI for real-time monitoring and control.",
       details: [
         "Boxes enter Conveyor 1, where an entry sensor detects their presence.",
