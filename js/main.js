@@ -161,10 +161,10 @@ function renderProjects(){
           </div>
           ${p.award ? `<div class="award-tag">${p.award}</div>` : ''}
           <p class="card-summary">${p.summary}</p>
-          <div class="btn-row">
-            <a class="btn btn-sm" href="${p.videoLink}" target="_blank" rel="noopener">${ICONS.play} View Working Video</a>
-            <a class="btn btn-sm" href="${p.photosLink}" target="_blank" rel="noopener">${ICONS.image} View Photos</a>
-            <a class="btn btn-sm" href="${p.certificateLink}" target="_blank" rel="noopener">${ICONS.certificate} View Certificates</a>
+         <div class="btn-row">
+            ${p.videoLink ? `<a class="btn btn-sm" href="${p.videoLink}" target="_blank" rel="noopener">${ICONS.play} View Working Video</a>` : ''}
+            ${p.photosLink ? `<a class="btn btn-sm" href="${p.photosLink}" target="_blank" rel="noopener">${ICONS.image} View Photos</a>` : ''}
+            ${p.certificateLink ? `<a class="btn btn-sm" href="${p.certificateLink}" target="_blank" rel="noopener">${ICONS.certificate} View Certificates</a>` : ''}
           </div>
           <button class="expand-toggle" data-target="proj-detail-${i}">
             <span class="plus"></span> Detailed explanation
