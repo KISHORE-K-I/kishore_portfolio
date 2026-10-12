@@ -14,7 +14,7 @@ const portfolioData = {
     phone: "+91 7395852890",
     linkedin: "https://www.linkedin.com/in/kishoreki",
     github: "https://github.com/KISHORE-K-I",
-    resumeFile: "assets/KISHORE_RESUME_updated.pdf"
+    resumeFile: "assets/KISHORE K I - RESUME (2026).pdf"
   },
 
   // ------------------------- ABOUT -------------------------
