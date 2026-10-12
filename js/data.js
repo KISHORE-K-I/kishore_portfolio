@@ -20,9 +20,9 @@ const portfolioData = {
   // ------------------------- ABOUT -------------------------
   about: {
     paragraphs: [
-      "I'm a Robotics and Automation Engineering student at Sri Ramakrishna Engineering College, Coimbatore, with a strong interest in turning engineering concepts into working robotic systems. My hands-on experience spans autonomous systems, embedded electronics, robotic simulation, and automation — from integrating encoders and motor drivers to developing ROS2 nodes and working with sensors such as IMUs and LiDAR.",
-      "My technical interests sit at the intersection of embedded systems, industrial automation, and robotics. I've worked with ROS2, PLC programming, Fusion 360, robotic simulation, and embedded systems, applying these tools across academic projects, internships, and hands-on builds. So far, I've developed major hardware-based robotic projects and gained industry exposure through internships in ROS development and embedded IoT.",
-      "I'm driven by the process of designing, building, testing, debugging, and improving robotic systems — and I'm always looking for the next engineering problem to solve."
+      "I’m a Robotics and Automation Engineering student at Sri Ramakrishna Engineering College, Coimbatore, with a strong interest in industrial robotics, automation, and robotic simulation.",
+      "I have hands-on experience with ROS 2, PLC programming, embedded systems, and sensor integration, along with practical exposure to industrial automation, automotive manufacturing processes, and robotic work-cell simulation through projects and internships.I’m passionate about developing reliable robotic systems and practical automation solutions for real-world engineering challenges.",
+      "Bridging Engineering Concepts with Intelligent Automation."
     ]
   },
 
