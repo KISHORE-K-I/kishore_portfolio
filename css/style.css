@@ -1605,3 +1605,32 @@ a:focus-visible, button:focus-visible, input:focus-visible, textarea:focus-visib
   }
 
 }
+/* About section: consistent typography */
+#about,
+#about h1,
+#about h2,
+#about h3,
+#about p,
+#about span,
+#about div,
+#about a {
+    font-family: "Inter", Arial, sans-serif;
+}
+
+/* Keep the existing layout and available space */
+#about .about-text {
+    width: 100%;
+    max-width: none;
+}
+
+#about .about-text p {
+    font-size: 16px;
+    line-height: 1.85;
+    letter-spacing: 0;
+    text-align: justify;
+    margin-bottom: 18px;
+}
+
+#about .about-text p:last-child {
+    margin-bottom: 0;
+}
