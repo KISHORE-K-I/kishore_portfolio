@@ -20,9 +20,10 @@ const portfolioData = {
   // ------------------------- ABOUT -------------------------
   about: {
     paragraphs: [
-      "I’m a Robotics and Automation Engineering student at Sri Ramakrishna Engineering College, Coimbatore, with a strong interest in industrial robotics, automation, and robotic simulation.",
-      "I have hands-on experience with ROS 2, PLC programming, embedded systems, and sensor integration, along with practical exposure to industrial automation, automotive manufacturing processes, and robotic work-cell simulation through projects and internships.I’m passionate about developing reliable robotic systems and practical automation solutions for real-world engineering challenges.",
-      "Bridging Engineering Concepts with Intelligent Automation."
+      "I’m a Robotics and Automation Engineering student at Sri Ramakrishna Engineering College, Coimbatore, with a strong interest in industrial robotics, automation systems, and robotic simulation.",
+"My technical experience spans ROS 2 development, PLC programming, embedded systems, sensor integration, and robotic system development. Through academic projects and internships, I have gained practical exposure to industrial automation, automotive manufacturing processes, and industrial robotic work-cell simulation using Siemens Process Simulate.",
+"I enjoy translating engineering concepts into practical solutions, from integrating sensors and motor-control components to developing robotic applications and exploring automated manufacturing workflows. I’m particularly interested in how robotics, control systems, and intelligent automation can improve industrial efficiency, reliability, and productivity.",
+"My goal is to contribute to real-world engineering projects in robotics and industrial automation while continuously strengthening my technical and problem-solving skills."
     ]
   },
 
@@ -100,6 +101,21 @@ const portfolioData = {
 
   // ------------------------- INTERNSHIPS -------------------------
   internships: [
+    
+    {
+      company: "HIROTEC India",
+      role: "Robotics Simulation Intern",
+      date: "August 2026 – Present",
+      location: "India",
+      summary: "Gaining practical exposure to automotive manufacturing processes and industrial robotic work-cell simulation.",
+      details: [
+        "Developing an understanding of automotive manufacturing workflows and industrial robotic work-cell layouts.",
+        "Gaining practical familiarity with Siemens Process Simulate for robotic work-cell simulation and manufacturing process analysis."
+      ],
+      certificateLink: "https://lnkd.in/p/gidRWk88",
+      photosLink: "https://lnkd.in/p/gidRWk88",
+      buttonMode: "certificate-photos"
+    }
     {
       company: "Karthikesh Robotics Private Limited (KKR Pvt. Ltd.)",
       logo: "assets/logos/karthikesh_robotics_logo.jpg",
