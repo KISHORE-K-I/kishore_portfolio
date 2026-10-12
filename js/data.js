@@ -115,7 +115,7 @@ const portfolioData = {
       certificateLink: "https://lnkd.in/p/gidRWk88",
       photosLink: "https://lnkd.in/p/gidRWk88",
       buttonMode: "certificate-photos"
-    }
+    },
     {
       company: "Karthikesh Robotics Private Limited (KKR Pvt. Ltd.)",
       logo: "assets/logos/karthikesh_robotics_logo.jpg",
