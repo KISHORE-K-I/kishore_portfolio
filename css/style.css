@@ -1582,8 +1582,8 @@ a:focus-visible, button:focus-visible, input:focus-visible, textarea:focus-visib
    FINAL SMALL-SCREEN EXPLORE BUTTON FIX
    ======================================================= */
 
-
 @media (max-width: 430px) {
+
   .hero-explore-grid {
     gap: 8px;
   }
@@ -1603,33 +1603,5 @@ a:focus-visible, button:focus-visible, input:focus-visible, textarea:focus-visib
     font-size: 16px;
     margin-left: 2px;
   }
-}
 
-/* About section: consistent typography */
-#about,
-#about h1,
-#about h2,
-#about h3,
-#about p,
-#about span,
-#about div,
-#about a {
-  font-family: "Inter", Arial, sans-serif;
-}
-
-#about .about-text {
-  width: 100%;
-  max-width: none;
-}
-
-#about .about-text p {
-  font-size: 16px;
-  line-height: 1.85;
-  letter-spacing: 0;
-  text-align: justify;
-  margin-bottom: 18px;
-}
-
-#about .about-text p:last-child {
-  margin-bottom: 0;
 }
